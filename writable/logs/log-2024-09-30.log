@@ -1,0 +1,263 @@
+CRITICAL - 2024-09-30 05:54:15 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpF28A.tmp" to "images/blogs/". Reason: 
+[Method: POST, Route: admin/update-blog-favicon]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpF28A.tmp', 'images/blogs/', '')
+ 2 APPPATH\Controllers\AdminController.php(221): CodeIgniter\HTTP\Files\UploadedFile->move('images/blogs/', 'UIMG_UIMG_UIMG_UIMG_UIMG_UIMG_UIMG__1727675394_c675f75e0c81553d7634.png_1727675406_77641e32cd8f934188a3.png_1727675444_b37b2318caf0e18c503e.png_1727675453_fad605d9cfb17d8be5ec.jpeg_1727675601_9165f019bef550e8a7de.png_1727675647_b4324926ef6e57c6bd15.jpeg_1727675655_e1ce8fcee5529e44c034.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updateBlogFavicon()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 05:54:27 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php21B9.tmp" to "images/blogs/". Reason: 
+[Method: POST, Route: admin/update-blog-favicon]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php21B9.tmp', 'images/blogs/', '')
+ 2 APPPATH\Controllers\AdminController.php(221): CodeIgniter\HTTP\Files\UploadedFile->move('images/blogs/', 'UIMG_UIMG_UIMG_UIMG_UIMG_UIMG_UIMG__1727675394_c675f75e0c81553d7634.png_1727675406_77641e32cd8f934188a3.png_1727675444_b37b2318caf0e18c503e.png_1727675453_fad605d9cfb17d8be5ec.jpeg_1727675601_9165f019bef550e8a7de.png_1727675647_b4324926ef6e57c6bd15.jpeg_1727675667_8b72c968bc1e697a62d6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updateBlogFavicon()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 08:20:08 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "categories" cannot be found.
+[Method: POST, Route: admin/add-category]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('categories')
+ 2 APPPATH\Controllers\AdminController.php(324): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addCategory()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 09:10:10 --> ErrorException: Attempt to read property "id" on null
+[Method: POST, Route: admin/add-category]
+in APPPATH\Controllers\AdminController.php on line 327.
+ 1 APPPATH\Controllers\AdminController.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 327)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addCategory()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 09:10:19 --> ErrorException: Attempt to read property "id" on null
+[Method: POST, Route: admin/add-category]
+in APPPATH\Controllers\AdminController.php on line 327.
+ 1 APPPATH\Controllers\AdminController.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 327)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addCategory()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 09:17:57 --> ErrorException: Attempt to read property "id" on null
+[Method: POST, Route: admin/add-category]
+in APPPATH\Controllers\AdminController.php on line 327.
+ 1 APPPATH\Controllers\AdminController.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 327)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addCategory()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 10:01:00 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: admin/Categories]
+in APPPATH\Controllers\AdminController.php on line 385.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 10:01:09 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: admin/Categories]
+in APPPATH\Controllers\AdminController.php on line 383.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 11:34:18 --> Error: Call to undefined function get_categories()
+[Method: GET, Route: admin/Categories]
+in APPPATH\Views\backend\pages\Categories.php on line 70.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/Categories', [], true)
+ 4 APPPATH\Controllers\AdminController.php(314): view('backend/pages/Categories', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->Categories()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 11:38:18 --> Error: Call to undefined method CodeIgniter\View\View::getCategories()
+[Method: GET, Route: admin/Categories]
+in APPPATH\Views\backend\pages\Categories.php on line 70.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/Categories', [], true)
+ 4 APPPATH\Controllers\AdminController.php(314): view('backend/pages/Categories', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->Categories()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 11:40:56 --> ErrorException: Undefined array key "columns"
+[Method: GET, Route: admin/Categories]
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\blog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(388): SSP::simple([], [...], 'categories', 'id', [...])
+ 4 APPPATH\Controllers\AdminController.php(312): App\Controllers\AdminController->getCategories()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->Categories()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 11:41:02 --> ErrorException: Undefined array key "columns"
+[Method: GET, Route: admin/Categories]
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\blog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(388): SSP::simple([], [...], 'categories', 'id', [...])
+ 4 APPPATH\Controllers\AdminController.php(312): App\Controllers\AdminController->getCategories()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->Categories()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 11:42:39 --> ErrorException: Undefined array key "columns"
+[Method: GET, Route: admin/Categories]
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\blog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(388): SSP::simple([], [...], 'categories', 'id', [...])
+ 4 APPPATH\Controllers\AdminController.php(312): App\Controllers\AdminController->getCategories()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->Categories()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 13:00:19 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: admin/reorder-categories]
+in APPPATH\Controllers\AdminController.php on line 437.
+ 1 APPPATH\Controllers\AdminController.php(437): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 437)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->reorderCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 13:00:23 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: admin/reorder-categories]
+in APPPATH\Controllers\AdminController.php on line 437.
+ 1 APPPATH\Controllers\AdminController.php(437): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 437)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->reorderCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 14:04:25 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/get-parent-categories]
+in APPPATH\Controllers\AdminController.php on line 475.
+ 1 APPPATH\Controllers\AdminController.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 475)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->getParentCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 17:37:10 --> Error: Class "Mberecall\CI_Slungify\SlugService" not found
+[Method: POST, Route: admin/add-subcategory]
+in APPPATH\Controllers\AdminController.php on line 499.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addSubcategory()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 17:37:57 --> Error: Class "App\Controllers\SlugService" not found
+[Method: POST, Route: admin/add-subcategory]
+in APPPATH\Controllers\AdminController.php on line 500.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addSubcategory()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 17:39:13 --> Error: Class "App\Controllers\SlugService" not found
+[Method: POST, Route: admin/add-subcategory]
+in APPPATH\Controllers\AdminController.php on line 501.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addSubcategory()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 17:46:31 --> Error: Class "App\Controllers\SlugService" not found
+[Method: POST, Route: admin/add-subcategory]
+in APPPATH\Controllers\AdminController.php on line 500.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addSubcategory()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 17:49:08 --> Error: Class "App\Libraries\SlugService" not found
+[Method: POST, Route: admin/add-subcategory]
+in APPPATH\Controllers\AdminController.php on line 502.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addSubcategory()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 17:49:45 --> Error: Class "App\Libraries\SlugService" not found
+[Method: POST, Route: admin/add-subcategory]
+in APPPATH\Controllers\AdminController.php on line 502.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addSubcategory()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 17:50:54 --> Error: Class "SawaStacks\CodeIgniter\Slugify\SlugService" not found
+[Method: POST, Route: admin/add-subcategory]
+in APPPATH\Controllers\AdminController.php on line 502.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addSubcategory()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 17:51:01 --> Error: Class "SawaStacks\CodeIgniter\Slugify\SlugService" not found
+[Method: POST, Route: admin/add-subcategory]
+in APPPATH\Controllers\AdminController.php on line 502.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addSubcategory()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 17:51:19 --> Error: Class "SawaStacks\CodeIgniter\Slugify\SlugService" not found
+[Method: POST, Route: admin/add-subcategory]
+in APPPATH\Controllers\AdminController.php on line 502.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addSubcategory()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

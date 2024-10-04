@@ -1,0 +1,140 @@
+CRITICAL - 2024-09-29 14:33:59 --> ErrorException: Undefined variable $blog_title
+[Method: GET, Route: admin/settings]
+in APPPATH\Views\backend\pages\settings.php on line 69.
+ 1 APPPATH\Views\backend\pages\settings.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\settings.php', 69)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(137): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-29 14:34:01 --> ErrorException: Undefined variable $blog_title
+[Method: GET, Route: admin/settings]
+in APPPATH\Views\backend\pages\settings.php on line 69.
+ 1 APPPATH\Views\backend\pages\settings.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\settings.php', 69)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(137): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-29 14:34:07 --> ErrorException: Undefined variable $blog_title
+[Method: GET, Route: admin/settings]
+in APPPATH\Views\backend\pages\settings.php on line 69.
+ 1 APPPATH\Views\backend\pages\settings.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_title', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\settings.php', 69)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(137): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-29 16:13:55 --> ErrorException: Attempt to read property "blog_title" on null
+[Method: GET, Route: admin/settings]
+in APPPATH\Views\backend\pages\settings.php on line 69.
+ 1 APPPATH\Views\backend\pages\settings.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "blog_title" on null', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\settings.php', 69)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(137): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-29 16:14:55 --> ErrorException: Attempt to read property "blog_title" on null
+[Method: GET, Route: admin/settings]
+in APPPATH\Views\backend\pages\settings.php on line 69.
+ 1 APPPATH\Views\backend\pages\settings.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "blog_title" on null', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\settings.php', 69)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(137): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-29 16:18:08 --> ErrorException: Attempt to read property "blog_title" on null
+[Method: GET, Route: admin/settings]
+in APPPATH\Views\backend\pages\settings.php on line 69.
+ 1 APPPATH\Views\backend\pages\settings.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "blog_title" on null', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\settings.php', 69)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(137): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-29 16:18:57 --> Error: Call to a member function first() on null
+[Method: GET, Route: admin/settings]
+in APPPATH\Helpers\CIFunction_helper.php on line 32.
+ 1 APPPATH\Views\backend\pages\settings.php(69): get_settings()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(137): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-29 16:39:52 --> Error: Call to a member function first() on null
+[Method: GET, Route: admin/settings]
+in APPPATH\Helpers\CIFunction_helper.php on line 32.
+ 1 APPPATH\Views\backend\pages\settings.php(69): get_settings()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-29 17:24:49 --> ErrorException: Undefined property: stdClass::$picture
+[Method: POST, Route: admin/update-blog-logo]
+in APPPATH\Controllers\AdminController.php on line 192.
+ 1 APPPATH\Controllers\AdminController.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$picture', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 192)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updateBlogLogo()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-29 17:25:51 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: admin/update-blog-logo]
+in APPPATH\Controllers\AdminController.php on line 193.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updateBlogLogo()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-29 17:30:11 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: admin/update-blog-logo]
+in APPPATH\Controllers\AdminController.php on line 193.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updateBlogLogo()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

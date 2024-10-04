@@ -1,0 +1,855 @@
+CRITICAL - 2024-10-01 07:34:01 --> ErrorException: Undefined variable $categories
+[Method: POST, Route: admin/posts/create-post]
+in APPPATH\Views\backend\pages\new-post.php on line 96.
+ 1 APPPATH\Views\backend\pages\new-post.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 96)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(685): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->createpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 07:38:36 --> ErrorException: Undefined variable $parent_categories
+[Method: POST, Route: admin/posts/create-post]
+in APPPATH\Views\backend\pages\new-post.php on line 96.
+ 1 APPPATH\Views\backend\pages\new-post.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parent_categories', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 96)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(685): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->createpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 07:38:55 --> ErrorException: Undefined variable $parent_categories
+[Method: GET, Route: admin/posts/new_post]
+in APPPATH\Views\backend\pages\new-post.php on line 96.
+ 1 APPPATH\Views\backend\pages\new-post.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parent_categories', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 96)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(648): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 07:39:04 --> ErrorException: Undefined variable $parent_categories
+[Method: GET, Route: admin/posts/new_post]
+in APPPATH\Views\backend\pages\new-post.php on line 96.
+ 1 APPPATH\Views\backend\pages\new-post.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parent_categories', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 96)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(648): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 07:41:20 --> ErrorException: Undefined variable $categories
+[Method: POST, Route: admin/posts/create-post]
+in APPPATH\Views\backend\pages\new-post.php on line 96.
+ 1 APPPATH\Views\backend\pages\new-post.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 96)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(685): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->createpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 07:41:51 --> ErrorException: Undefined variable $categories
+[Method: POST, Route: admin/posts/create-post]
+in APPPATH\Views\backend\pages\new-post.php on line 96.
+ 1 APPPATH\Views\backend\pages\new-post.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 96)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(685): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->createpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 07:45:18 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/posts/create-post]
+in APPPATH\Views\backend\pages\new-post.php on line 97.
+ 1 APPPATH\Views\backend\pages\new-post.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 97)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(685): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->createpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 07:45:50 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/posts/create-post]
+in APPPATH\Views\backend\pages\new-post.php on line 97.
+ 1 APPPATH\Views\backend\pages\new-post.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 97)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(685): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->createpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 07:45:52 --> ErrorException: Undefined variable $data
+[Method: GET, Route: admin/posts/new_post]
+in APPPATH\Views\backend\pages\new-post.php on line 97.
+ 1 APPPATH\Views\backend\pages\new-post.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 97)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(648): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 07:45:54 --> ErrorException: Undefined variable $data
+[Method: GET, Route: admin/posts/new_post]
+in APPPATH\Views\backend\pages\new-post.php on line 97.
+ 1 APPPATH\Views\backend\pages\new-post.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 97)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(648): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 07:47:50 --> ErrorException: Undefined variable $data
+[Method: GET, Route: admin/posts/new_post]
+in APPPATH\Views\backend\pages\new-post.php on line 97.
+ 1 APPPATH\Views\backend\pages\new-post.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 97)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(648): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 07:47:58 --> ErrorException: Undefined variable $data
+[Method: GET, Route: admin/posts/new_post]
+in APPPATH\Views\backend\pages\new-post.php on line 97.
+ 1 APPPATH\Views\backend\pages\new-post.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 97)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(648): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 07:48:19 --> ErrorException: Undefined variable $data
+[Method: GET, Route: admin/posts/new_post]
+in APPPATH\Views\backend\pages\new-post.php on line 97.
+ 1 APPPATH\Views\backend\pages\new-post.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 97)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(648): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 07:48:21 --> ErrorException: Undefined variable $data
+[Method: GET, Route: admin/posts/new_post]
+in APPPATH\Views\backend\pages\new-post.php on line 97.
+ 1 APPPATH\Views\backend\pages\new-post.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 97)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(648): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 07:48:26 --> ErrorException: Undefined variable $data
+[Method: GET, Route: admin/posts/new_post]
+in APPPATH\Views\backend\pages\new-post.php on line 97.
+ 1 APPPATH\Views\backend\pages\new-post.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php', 97)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\new-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/new-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(648): view('backend/pages/new-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->addpost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 08:07:34 --> ErrorException: mkdir(): No such file or directory
+[Method: POST, Route: admin/posts/create-post]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 181.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\blog\\system\\HTTP\\Files\\UploadedFile.php', 181)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(181): mkdir('C:\\xampp\\tmp\\php26ED.tmp/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(135): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\tmp\\php26ED.tmp/')
+ 4 APPPATH\Controllers\AdminController.php(708): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\tmp\\php26ED.tmp/', 'web-development1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->createpost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 08:09:30 --> ErrorException: mkdir(): No such file or directory
+[Method: POST, Route: admin/posts/create-post]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 181.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\blog\\system\\HTTP\\Files\\UploadedFile.php', 181)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(181): mkdir('C:\\xampp\\tmp\\phpEB62.tmp/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(135): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\tmp\\phpEB62.tmp/')
+ 4 APPPATH\Controllers\AdminController.php(708): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\tmp\\phpEB62.tmp/', 'web-development1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->createpost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 08:11:09 --> ErrorException: mkdir(): No such file or directory
+[Method: POST, Route: admin/posts/create-post]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 181.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\blog\\system\\HTTP\\Files\\UploadedFile.php', 181)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(181): mkdir('C:\\xampp\\tmp\\php6BC9.tmp/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(135): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\tmp\\php6BC9.tmp/')
+ 4 APPPATH\Controllers\AdminController.php(706): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\tmp\\php6BC9.tmp/', 'web-development1.png')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->createpost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 10:10:17 --> ErrorException: Undefined variable $post
+[Method: POST, Route: admin/posts/update-post]
+in APPPATH\Views\backend\pages\edit-post.php on line 28.
+ 1 APPPATH\Views\backend\pages\edit-post.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/edit-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(881): view('backend/pages/edit-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatepost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 10:32:41 --> ErrorException: Attempt to read property "id" on null
+[Method: POST, Route: admin/posts/update-post]
+in APPPATH\Views\backend\pages\edit-post.php on line 28.
+ 1 APPPATH\Views\backend\pages\edit-post.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/edit-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(869): view('backend/pages/edit-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatepost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 10:35:42 --> ErrorException: Attempt to read property "featured_image" on null
+[Method: POST, Route: admin/posts/update-post]
+in APPPATH\Controllers\AdminController.php on line 868.
+ 1 APPPATH\Controllers\AdminController.php(868): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "featured_image" on null', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 868)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 10:38:31 --> ErrorException: Undefined variable $image
+[Method: GET, Route: admin/posts/edit-post/2]
+in APPPATH\Views\backend\pages\edit-post.php on line 122.
+ 1 APPPATH\Views\backend\pages\edit-post.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php', 122)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/edit-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(821): view('backend/pages/edit-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->editpost('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 10:38:33 --> ErrorException: Undefined variable $image
+[Method: GET, Route: admin/posts/edit-post/2]
+in APPPATH\Views\backend\pages\edit-post.php on line 122.
+ 1 APPPATH\Views\backend\pages\edit-post.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php', 122)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/edit-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(821): view('backend/pages/edit-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->editpost('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 10:38:35 --> ErrorException: Undefined variable $image
+[Method: GET, Route: admin/posts/edit-post/1]
+in APPPATH\Views\backend\pages\edit-post.php on line 122.
+ 1 APPPATH\Views\backend\pages\edit-post.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php', 122)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/edit-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(821): view('backend/pages/edit-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->editpost('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 10:38:38 --> ErrorException: Undefined variable $image
+[Method: GET, Route: admin/posts/edit-post/1]
+in APPPATH\Views\backend\pages\edit-post.php on line 122.
+ 1 APPPATH\Views\backend\pages\edit-post.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php', 122)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/edit-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(821): view('backend/pages/edit-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->editpost('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 10:46:25 --> ErrorException: Attempt to read property "featured_image" on null
+[Method: POST, Route: admin/posts/update-post]
+in APPPATH\Controllers\AdminController.php on line 888.
+ 1 APPPATH\Controllers\AdminController.php(888): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "featured_image" on null', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 888)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 10:50:08 --> CodeIgniter\Files\Exceptions\FileNotFoundException: File not found: "images/postsweb-development1.png"
+[Method: POST, Route: admin/posts/update-post]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('images/postsweb-development1.png')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(150): CodeIgniter\Files\File->__construct('images/postsweb-development1.png', true)
+ 3 APPPATH\Controllers\AdminController.php(896): CodeIgniter\Images\Handlers\BaseHandler->withFile('images/postsweb-development1.png')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatepost()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 10:59:51 --> ErrorException: Attempt to read property "id" on string
+[Method: POST, Route: admin/posts/update-post]
+in APPPATH\Views\backend\pages\edit-post.php on line 28.
+ 1 APPPATH\Views\backend\pages\edit-post.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on string', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/edit-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(882): view('backend/pages/edit-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatepost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 12:16:21 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/posts/edit-post/public/extra-assets/elFinder/elfinder.src.php]
+in APPPATH\Views\backend\pages\edit-post.php on line 32.
+ 1 APPPATH\Views\backend\pages\edit-post.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/edit-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(821): view('backend/pages/edit-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->editpost('public', 'extra-assets', 'elFinder', 'elfinder.src.php')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 12:36:34 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/posts/edit-post/public/extra-assets/elFinder/elfinder.src.php]
+in APPPATH\Views\backend\pages\edit-post.php on line 32.
+ 1 APPPATH\Views\backend\pages\edit-post.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/edit-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(821): view('backend/pages/edit-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->editpost('public', 'extra-assets', 'elFinder', 'elfinder.src.php')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 12:37:01 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/posts/edit-post/public/extra-assets/elFinder/elfinder.src.php]
+in APPPATH\Views\backend\pages\edit-post.php on line 32.
+ 1 APPPATH\Views\backend\pages\edit-post.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/edit-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(821): view('backend/pages/edit-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->editpost('public', 'extra-assets', 'elFinder', 'elfinder.src.php')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 12:37:41 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: admin/posts/edit-post/public/extra-assets/elFinder/elfinder.src.php]
+in APPPATH\Views\backend\pages\edit-post.php on line 32.
+ 1 APPPATH\Views\backend\pages\edit-post.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\edit-post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/edit-post', [], true)
+ 5 APPPATH\Controllers\AdminController.php(821): view('backend/pages/edit-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->editpost('public', 'extra-assets', 'elFinder', 'elfinder.src.php')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 17:32:37 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "delete-category data-id="
+[Method: GET, Route: admin/delete-category%20data-id=]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('admin/delete-category data-id=')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('admin/delete-category data-id=')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 17:34:10 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: admin/get-categories]
+in APPPATH\Controllers\AdminController.php on line 385.
+ 1 APPPATH\Controllers\AdminController.php(385): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 385)
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AdminController->App\Controllers\{closure}(41, [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(395): SSP::simple([...], [...], 'categories', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->getCategories()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 17:34:11 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: admin/get-categories]
+in APPPATH\Controllers\AdminController.php on line 385.
+ 1 APPPATH\Controllers\AdminController.php(385): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 385)
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AdminController->App\Controllers\{closure}(41, [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(395): SSP::simple([...], [...], 'categories', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->getCategories()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 17:34:51 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: admin/get-categories]
+in APPPATH\Controllers\AdminController.php on line 385.
+ 1 APPPATH\Controllers\AdminController.php(385): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 385)
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AdminController->App\Controllers\{closure}(41, [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(395): SSP::simple([...], [...], 'categories', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->getCategories()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 17:56:19 --> ErrorException: Attempt to read property "name" on null
+[Method: GET, Route: admin/posts/get-posts]
+in APPPATH\Controllers\AdminController.php on line 796.
+ 1 APPPATH\Controllers\AdminController.php(796): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 796)
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AdminController->App\Controllers\{closure}(3, [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(822): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 17:57:14 --> ErrorException: Attempt to read property "name" on null
+[Method: GET, Route: admin/posts/get-posts]
+in APPPATH\Controllers\AdminController.php on line 796.
+ 1 APPPATH\Controllers\AdminController.php(796): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 796)
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AdminController->App\Controllers\{closure}(3, [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(822): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 17:57:46 --> ErrorException: Attempt to read property "name" on null
+[Method: GET, Route: admin/posts/get-posts]
+in APPPATH\Controllers\AdminController.php on line 796.
+ 1 APPPATH\Controllers\AdminController.php(796): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 796)
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AdminController->App\Controllers\{closure}(3, [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(822): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 17:57:57 --> ErrorException: Attempt to read property "name" on null
+[Method: GET, Route: admin/posts/get-posts]
+in APPPATH\Controllers\AdminController.php on line 796.
+ 1 APPPATH\Controllers\AdminController.php(796): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 796)
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AdminController->App\Controllers\{closure}(3, [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(822): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 17:58:51 --> ErrorException: Attempt to read property "name" on null
+[Method: GET, Route: admin/posts/get-posts]
+in APPPATH\Controllers\AdminController.php on line 797.
+ 1 APPPATH\Controllers\AdminController.php(797): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 797)
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AdminController->App\Controllers\{closure}(3, [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(823): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 17:58:57 --> ErrorException: Attempt to read property "name" on null
+[Method: GET, Route: admin/posts/get-posts]
+in APPPATH\Controllers\AdminController.php on line 797.
+ 1 APPPATH\Controllers\AdminController.php(797): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 797)
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AdminController->App\Controllers\{closure}(3, [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(823): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 18:02:39 --> ErrorException: Attempt to read property "name" on null
+[Method: GET, Route: admin/posts/get-posts]
+in APPPATH\Controllers\AdminController.php on line 796.
+ 1 APPPATH\Controllers\AdminController.php(796): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 796)
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AdminController->App\Controllers\{closure}(3, [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(822): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 18:16:44 --> InvalidArgumentException: Missing argument for "(:num)" in route "admin/delete-subcategory/(:num)".
+[Method: GET, Route: admin/Categories]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/delete-subcategory/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('delete-subcategory')
+ 3 APPPATH\Views\backend\pages\Categories.php(311): route_to('delete-subcategory')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\Categories.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/Categories', [], true)
+ 7 APPPATH\Controllers\AdminController.php(320): view('backend/pages/Categories', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->Categories()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-01 18:33:10 --> mysqli_sql_exception: Unknown column 'subcategory_id' in 'where clause' in C:\xampp\htdocs\blog\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\blog\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\blog\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\blog\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\blog\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\blog\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\blog\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\blog\app\Controllers\AdminController.php(659): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\blog\system\CodeIgniter.php(933): App\Controllers\AdminController->deletesubCategory()
+#8 C:\xampp\htdocs\blog\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\blog\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\blog\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\blog\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\blog\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-10-01 18:33:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'subcategory_id' in 'where clause'
+[Method: POST, Route: admin/delete-subcategory]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = :subcategory_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AdminController.php(659): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->deletesubCategory()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 18:33:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'subcategory_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'3\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = :subcategory_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\AdminController.php(659): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->deletesubCategory()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 18:33:10 --> [Caused by] mysqli_sql_exception: Unknown column 'subcategory_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'3\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = :subcategory_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AdminController.php(659): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->deletesubCategory()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-01 18:33:14 --> mysqli_sql_exception: Unknown column 'subcategory_id' in 'where clause' in C:\xampp\htdocs\blog\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\blog\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\blog\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\blog\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\blog\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\blog\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\blog\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\blog\app\Controllers\AdminController.php(659): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\blog\system\CodeIgniter.php(933): App\Controllers\AdminController->deletesubCategory()
+#8 C:\xampp\htdocs\blog\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\blog\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\blog\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\blog\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\blog\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-10-01 18:33:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'subcategory_id' in 'where clause'
+[Method: POST, Route: admin/delete-subcategory]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = :subcategory_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AdminController.php(659): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->deletesubCategory()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 18:33:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'subcategory_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = :subcategory_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\AdminController.php(659): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->deletesubCategory()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 18:33:14 --> [Caused by] mysqli_sql_exception: Unknown column 'subcategory_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = :subcategory_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AdminController.php(659): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->deletesubCategory()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-01 18:33:33 --> mysqli_sql_exception: Unknown column 'subcategory_id' in 'where clause' in C:\xampp\htdocs\blog\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\blog\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\blog\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\blog\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\blog\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\blog\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\blog\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\blog\app\Controllers\AdminController.php(659): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\blog\system\CodeIgniter.php(933): App\Controllers\AdminController->deletesubCategory()
+#8 C:\xampp\htdocs\blog\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\blog\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\blog\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\blog\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\blog\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-10-01 18:33:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'subcategory_id' in 'where clause'
+[Method: POST, Route: admin/delete-subcategory]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = :subcategory_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AdminController.php(659): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->deletesubCategory()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 18:33:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'subcategory_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'3\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = :subcategory_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\AdminController.php(659): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->deletesubCategory()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 18:33:33 --> [Caused by] mysqli_sql_exception: Unknown column 'subcategory_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = \'3\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `subcategory_id` = :subcategory_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AdminController.php(659): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->deletesubCategory()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 18:36:10 --> ErrorException: Array to string conversion
+[Method: POST, Route: admin/delete-subcategory]
+in APPPATH\Controllers\AdminController.php on line 660.
+ 1 APPPATH\Controllers\AdminController.php(660): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\blog\\app\\Controllers\\AdminController.php', 660)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->deletesubCategory()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 18:50:15 --> InvalidArgumentException: Missing argument for "(:num)" in route "admin/posts/delete-post/(:num)".
+[Method: GET, Route: admin/posts]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/posts/delete-post/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('delete-post')
+ 3 APPPATH\Views\backend\pages\allposts.php(112): route_to('delete-post')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\allposts.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/allposts', [], true)
+ 7 APPPATH\Controllers\AdminController.php(759): view('backend/pages/allposts', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->allposts()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 18:50:26 --> InvalidArgumentException: Missing argument for "(:num)" in route "admin/posts/delete-post/(:num)".
+[Method: GET, Route: admin/posts]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/posts/delete-post/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('delete-post')
+ 3 APPPATH\Views\backend\pages\allposts.php(112): route_to('delete-post')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\allposts.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/allposts', [], true)
+ 7 APPPATH\Controllers\AdminController.php(759): view('backend/pages/allposts', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->allposts()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

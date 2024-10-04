@@ -1,0 +1,586 @@
+CRITICAL - 2024-09-27 09:26:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "email-templates/forgot-email-template.php"
+[Method: POST, Route: admin/send-password-reset-link]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('email-templates/forgot-email-template.php')
+ 2 APPPATH\Controllers\AuthController.php(180): CodeIgniter\View\View->render('email-templates/forgot-email-template', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 09:29:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "email-templates/forgot-email-template.php"
+[Method: POST, Route: admin/send-password-reset-link]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('email-templates/forgot-email-template.php')
+ 2 APPPATH\Controllers\AuthController.php(180): CodeIgniter\View\View->render('email-templates/forgot-email-template')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 09:30:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "email-templates/forgot-email-template.php"
+[Method: POST, Route: admin/send-password-reset-link]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('email-templates/forgot-email-template.php')
+ 2 APPPATH\Controllers\AuthController.php(180): CodeIgniter\View\View->render('email-templates/forgot-email-template')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 09:32:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "email-templates/forgot-email-template.php"
+[Method: POST, Route: admin/send-password-reset-link]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('email-templates/forgot-email-template.php')
+ 2 APPPATH\Controllers\AuthController.php(180): CodeIgniter\View\View->render('email-templates/forgot-email-template')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-27 09:35:03 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in C:\xampp\htdocs\blog\system\Email\Email.php:1896
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', 'C:\\xampp\\htdocs...', 1896)
+#1 C:\xampp\htdocs\blog\system\Email\Email.php(1896): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 10)
+#2 C:\xampp\htdocs\blog\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\blog\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\blog\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\blog\app\Controllers\AuthController.php(186): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\blog\system\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+#7 C:\xampp\htdocs\blog\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\xampp\htdocs\blog\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\blog\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\blog\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\blog\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-09-27 09:35:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-09-27 09:35:03 --> 
+CRITICAL - 2024-09-27 09:40:39 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: POST, Route: admin/send-password-reset-link]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Controllers\AuthController.php(173): base_url(false)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 09:42:33 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: POST, Route: admin/send-password-reset-link]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Controllers\AuthController.php(173): base_url(false)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 09:47:49 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: POST, Route: admin/send-password-reset-link]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Controllers\AuthController.php(139): base_url(false)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 09:48:41 --> PHPMailer\PHPMailer\Exception: Invalid address:  (From): 
+[Method: POST, Route: admin/send-password-reset-link]
+in FCPATH\PHPMailer\src\PHPMailer.php on line 1330.
+ 1 APPPATH\Helpers\CIMail_helper.php(24): PHPMailer\PHPMailer\PHPMailer->setFrom('', '')
+ 2 APPPATH\Controllers\AuthController.php(170): sendEmail([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 09:49:53 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: POST, Route: admin/send-password-reset-link]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(false, null)
+ 3 APPPATH\Controllers\AuthController.php(173): base_url(false)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 09:52:57 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, bool returned
+[Method: POST, Route: admin/send-password-reset-link]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(421): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(false)
+ 2 SYSTEMPATH\Helpers\url_helper.php(39): CodeIgniter\HTTP\SiteURI->siteUrl(false, null, null)
+ 3 APPPATH\Controllers\AuthController.php(173): site_url(false)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 09:54:58 --> CodeIgniter\Router\Exceptions\RouterException: The route for "admin.reset-password" cannot be found.
+[Method: POST, Route: admin/send-password-reset-link]
+in SYSTEMPATH\Helpers\url_helper.php on line 494.
+ 1 SYSTEMPATH\Helpers\url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('admin.reset-password')
+ 2 APPPATH\Controllers\AuthController.php(173): url_to('admin.reset-password', 'e4fe12fc44c1edca46dc908e2fcb62e2cfc81521594bdca86ed76dac75c9ecd215ec5ce13c6152c2a29da3b63500127bee7410725b32da990d3a37637254486ef5')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 09:56:00 --> CodeIgniter\Router\Exceptions\RouterException: The route for "admin.reset-password" cannot be found.
+[Method: POST, Route: admin/send-password-reset-link]
+in SYSTEMPATH\Helpers\url_helper.php on line 494.
+ 1 SYSTEMPrs\AuthController.php(173): url_to('admin.reset-password', 'db1fd40676d75065727f29184948d72fe25f8b1b269cbcda7435c0908a2eff302cb9680eb1b52bc8d1a5803a15fdba30adfebfa0a540ffddf7d6c43841ce760bf9')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ATH\Helpers\url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('admin.reset-password')
+ 2 APPPATH\ControlleERROR - 2024-09-27 10:21:19 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in C:\xampp\htdocs\blog\system\Email\Email.php:1896
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', 'C:\\xampp\\htdocs...', 1896)
+#1 C:\xampp\htdocs\blog\system\Email\Email.php(1896): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 10)
+#2 C:\xampp\htdocs\blog\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\blog\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\blog\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\blog\app\Controllers\AuthController.php(188): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\blog\system\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+#7 C:\xampp\htdocs\blog\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\xampp\htdocs\blog\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\blog\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\blog\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\blog\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-09-27 10:21:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-09-27 10:21:19 --> 
+ERROR - 2024-09-27 10:21:46 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in C:\xampp\htdocs\blog\system\Email\Email.php:1896
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', 'C:\\xampp\\htdocs...', 1896)
+#1 C:\xampp\htdocs\blog\system\Email\Email.php(1896): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 10)
+#2 C:\xampp\htdocs\blog\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\blog\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\blog\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\blog\app\Controllers\AuthController.php(188): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\blog\system\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+#7 C:\xampp\htdocs\blog\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\xampp\htdocs\blog\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\blog\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\blog\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\blog\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-09-27 10:21:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-09-27 10:21:46 --> 
+ERROR - 2024-09-27 10:22:12 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in C:\xampp\htdocs\blog\system\Email\Email.php:1896
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', 'C:\\xampp\\htdocs...', 1896)
+#1 C:\xampp\htdocs\blog\system\Email\Email.php(1896): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 10)
+#2 C:\xampp\htdocs\blog\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\blog\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\blog\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\blog\app\Controllers\AuthController.php(188): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\blog\system\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+#7 C:\xampp\htdocs\blog\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\xampp\htdocs\blog\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\blog\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\blog\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\blog\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-09-27 10:22:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-09-27 10:22:12 --> 
+ERROR - 2024-09-27 10:22:23 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in C:\xampp\htdocs\blog\system\Email\Email.php:1896
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', 'C:\\xampp\\htdocs...', 1896)
+#1 C:\xampp\htdocs\blog\system\Email\Email.php(1896): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 10)
+#2 C:\xampp\htdocs\blog\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\blog\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\blog\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\blog\app\Controllers\AuthController.php(188): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\blog\system\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+#7 C:\xampp\htdocs\blog\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\xampp\htdocs\blog\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\blog\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\blog\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\blog\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-09-27 10:22:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-09-27 10:22:23 --> 
+ERROR - 2024-09-27 10:23:08 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in C:\xampp\htdocs\blog\system\Email\Email.php:1896
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', 'C:\\xampp\\htdocs...', 1896)
+#1 C:\xampp\htdocs\blog\system\Email\Email.php(1896): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 10)
+#2 C:\xampp\htdocs\blog\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\blog\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\blog\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\blog\app\Controllers\AuthController.php(188): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\blog\system\CodeIgniter.php(933): App\Controllers\AuthController->sendpasswordresetlink()
+#7 C:\xampp\htdocs\blog\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\xampp\htdocs\blog\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\blog\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\blog\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\blog\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-09-27 10:23:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-09-27 10:23:08 --> 
+CRITICAL - 2024-09-27 10:27:39 --> InvalidArgumentException: Missing argument for "(:any)" in route "admin/reset-password-handler/(:any)".
+[Method: GET, Route: admin/password/reset-password/b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/reset-password-handler/(:any)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('reset-password-handler')
+ 3 APPPATH\Views\backend\pages\auth\reset.php(9): route_to('reset-password-handler')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\auth\\reset.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/auth/reset', [], true)
+ 7 APPPATH\Controllers\AuthController.php(208): view('backend/pages/auth/reset', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->resetPassword('b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 10:27:44 --> InvalidArgumentException: Missing argument for "(:any)" in route "admin/reset-password-handler/(:any)".
+[Method: GET, Route: admin/password/reset-password/b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/reset-password-handler/(:any)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('reset-password-handler')
+ 3 APPPATH\Views\backend\pages\auth\reset.php(9): route_to('reset-password-handler')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\auth\\reset.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/auth/reset', [], true)
+ 7 APPPATH\Controllers\AuthController.php(208): view('backend/pages/auth/reset', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->resetPassword('b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 10:27:46 --> InvalidArgumentException: Missing argument for "(:any)" in route "admin/reset-password-handler/(:any)".
+[Method: GET, Route: admin/password/reset-password/b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/reset-password-handler/(:any)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('reset-password-handler')
+ 3 APPPATH\Views\backend\pages\auth\reset.php(9): route_to('reset-password-handler')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\auth\\reset.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/auth/reset', [], true)
+ 7 APPPATH\Controllers\AuthController.php(208): view('backend/pages/auth/reset', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->resetPassword('b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 10:29:24 --> InvalidArgumentException: Missing argument for "(:any)" in route "admin/password/reset-password-handler/(:any)".
+[Method: GET, Route: admin/password/reset-password/b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/password/reset-password-handler/(:any)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('reset-password-handler')
+ 3 APPPATH\Views\backend\pages\auth\reset.php(9): route_to('reset-password-handler')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\auth\\reset.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/auth/reset', [], true)
+ 7 APPPATH\Controllers\AuthController.php(208): view('backend/pages/auth/reset', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->resetPassword('b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 10:30:10 --> InvalidArgumentException: Missing argument for "(:any)" in route "admin/reset-password-handler/(:any)".
+[Method: GET, Route: admin/password/reset-password/b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/reset-password-handler/(:any)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('reset-password-handler')
+ 3 APPPATH\Views\backend\pages\auth\reset.php(9): route_to('reset-password-handler')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\blog\\app\\Views\\backend\\pages\\auth\\reset.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/auth/reset', [], true)
+ 7 APPPATH\Controllers\AuthController.php(208): view('backend/pages/auth/reset', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->resetPassword('b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 05:30:45 --> ArgumentCountError: Too few arguments to function App\Controllers\AuthController::resetPasswordhandler(), 1 passed in C:\xampp\htdocs\blog\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: POST, Route: admin/reset-password-handler/b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4]
+in APPPATH\Controllers\AuthController.php on line 218.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->resetPasswordhandler('b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 05:31:18 --> ArgumentCountError: Too few arguments to function App\Controllers\AuthController::resetPasswordhandler(), 1 passed in C:\xampp\htdocs\blog\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: POST, Route: admin/reset-password-handler/b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4]
+in APPPATH\Controllers\AuthController.php on line 218.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->resetPasswordhandler('b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 05:47:11 --> ErrorException: preg_match(): Compilation failed: missing closing parenthesis at offset 44
+[Method: POST, Route: admin/reset-password-handler/b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4]
+in APPPATH\Validation\Ispasswordstrong.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 44', 'C:\\xampp\\htdocs\\blog\\app\\Validation\\Ispasswordstrong.php', 10)
+ 2 APPPATH\Validation\Ispasswordstrong.php(10): preg_match('/^(?=.*[\\W](?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])$/', '12345')
+ 3 SYSTEMPATH\Validation\Validation.php(339): App\Validation\Ispasswordstrong->Is_password_strong('12345', 'new_password', [...], null, 'new_password')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('new_password', 'new_password', '12345', [...], [...], 'new_password')
+ 5 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\AuthController.php(219): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->resetPasswordhandler('b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 05:47:21 --> ErrorException: preg_match(): Compilation failed: missing closing parenthesis at offset 44
+[Method: POST, Route: admin/reset-password-handler/b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4]
+in APPPATH\Validation\Ispasswordstrong.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 44', 'C:\\xampp\\htdocs\\blog\\app\\Validation\\Ispasswordstrong.php', 10)
+ 2 APPPATH\Validation\Ispasswordstrong.php(10): preg_match('/^(?=.*[\\W](?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])$/', '12345')
+ 3 SYSTEMPATH\Validation\Validation.php(339): App\Validation\Ispasswordstrong->Is_password_strong('12345', 'new_password', [...], null, 'new_password')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('new_password', 'new_password', '12345', [...], [...], 'new_password')
+ 5 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\AuthController.php(219): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->resetPasswordhandler('b0afcd698ee0727f44625780a5f152af9986d9fdc2c55e6f7653bc0423f9d17ab9e2618377616f4effbc8bdbe9c8ea182a12a20d756d1e772bcc38bdaf338c30e4')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 10:59:33 --> CodeIgniter\Validation\Exceptions\ValidationException: "                        in" is not a valid rule.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\Validation\Validation.php on line 348.
+ 1 SYSTEMPATH\Validation\Validation.php(348): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('                        in')
+ 2 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('picture', 'picture', null, [...], [...], 'picture')
+ 3 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\AdminController.php(36): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 11:00:00 --> CodeIgniter\Validation\Exceptions\ValidationException: "mimein" is not a valid rule.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\Validation\Validation.php on line 348.
+ 1 SYSTEMPATH\Validation\Validation.php(348): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mimein')
+ 2 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('picture', 'picture', null, [...], [...], 'picture')
+ 3 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\AdminController.php(36): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 11:09:32 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(66): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\blog\\public\\/images/users/', '1727435372_ad43e43c0dd470c7cc72')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 11:09:58 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(66): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\blog\\public\\/images/users/', '1727435398_b35551a51950ae818e35')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 11:10:17 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(66): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\blog\\public\\/images/users/', '1727435417_3dd7b1acd525b88db0ce')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 11:18:21 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(92): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\blog\\writable\\images/users/1727435901_2e0b1c48be351bb5d7b3/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 11:22:46 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\blog\\public\\/images/users/1727436166_50b92941f162d63e96cd/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 11:23:19 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(66): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\blog\\public\\/images/users/', '1727436199_41a0f685b573b1fbaf4d')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 11:27:27 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(66): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\blog\\public\\/images/users/', '1727436447_2aabc927438f6caac40f')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 11:38:27 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(69): CodeIgniter\HTTP\Files\UploadedFile->move('images/users/', 'UIMG_11727437107_483831c56479f9f7a139')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 11:39:32 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(70): CodeIgniter\HTTP\Files\UploadedFile->move('images/users/', 'UIMG_11727437172_c66205eb478e9e999452')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 11:40:26 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(71): CodeIgniter\HTTP\Files\UploadedFile->move('images/users/', 'UIMG_11727437226_9aa90998faf2bcff0d45')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 11:46:57 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(71): CodeIgniter\HTTP\Files\UploadedFile->move('images/users/', 'UIMG_11727437617_2066bc40c589618915e7')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 12:11:57 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(71): CodeIgniter\HTTP\Files\UploadedFile->move('images/users/', 'UIMG_11727439117_d342ea57d54b395a0efd')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 12:14:44 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(71): CodeIgniter\HTTP\Files\UploadedFile->move('images/users/', 'UIMG_11727439284_d87bc7f4f64963fd3ecb')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 12:17:13 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(71): CodeIgniter\HTTP\Files\UploadedFile->move('images/users/', 'UIMG_11727439433_1c5c66d32687ce1a8510')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 12:18:54 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: admin/update-personal-details]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\AdminController.php(71): CodeIgniter\HTTP\Files\UploadedFile->move('images/users/', 'UIMG_11727439534_f80e0952bef668fc801f')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->updatePersonalDetails()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 13:05:22 --> ErrorException: Attempt to read property "password" on array
+[Method: POST, Route: admin/change-password]
+in APPPATH\Validation\Iscurrentpasswordcorrect.php on line 13.
+ 1 APPPATH\Validation\Iscurrentpasswordcorrect.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'C:\\xampp\\htdocs\\blog\\app\\Validation\\Iscurrentpasswordcorrect.php', 13)
+ 2 SYSTEMPATH\Validation\Validation.php(339): App\Validation\Iscurrentpasswordcorrect->check_current_password('Ali@12345', 'current_password', [...], null, 'current_password')
+ 3 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('current_password', 'current_password', 'Ali@12345', [...], [...], 'current_password')
+ 4 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\AdminController.php(97): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->changePassword()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 13:05:49 --> ErrorException: Attempt to read property "password" on array
+[Method: POST, Route: admin/change-password]
+in APPPATH\Validation\Iscurrentpasswordcorrect.php on line 13.
+ 1 APPPATH\Validation\Iscurrentpasswordcorrect.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'C:\\xampp\\htdocs\\blog\\app\\Validation\\Iscurrentpasswordcorrect.php', 13)
+ 2 SYSTEMPATH\Validation\Validation.php(339): App\Validation\Iscurrentpasswordcorrect->check_current_password('Ali@12345', 'current_password', [...], null, 'current_password')
+ 3 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('current_password', 'current_password', 'Ali@12345', [...], [...], 'current_password')
+ 4 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\AdminController.php(97): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->changePassword()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
