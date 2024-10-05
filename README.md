@@ -1,4 +1,4 @@
-# CodeIgniter 4 Framework
+# blog-site-with-admin-dashboard-using-codeigniter-4
 
 ## What is CodeIgniter?
 
